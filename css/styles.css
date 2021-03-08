@@ -1,0 +1,19 @@
+body {
+  padding: 40px;
+  font: normal 16px sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+.dice {
+  display: block !important;
+  font-size: 80px;
+  margin: 0 auto 20px;
+  cursor: pointer;
+}
+
+span {
+  display: block;
+  margin: 0 auto;
+  color: #333;
+}

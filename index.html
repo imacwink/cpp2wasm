@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h1>WebAssembly Simple</h1>
+
+    <pre>
+    #include &lt;stdio.h&gt;
+
+    int main() {
+      printf("Hello World! WebAssembly Module Loaded!\n");
+      return 0;
+    }
+    </pre>
+
+    <!-- 引入 JavaScript 文件 -->
+    <!-- 这将会加载 WebAssembly 模块并运行其main函数 -->
+    <script src="out/hello-emcc.js"></script>
+
+  </body>
+</html>
